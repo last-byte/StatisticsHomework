@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32228.343
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW1_CS", "HW1_CS\HW1_CS.csproj", "{8170C7CD-CE37-47E5-A8C7-A9DDAEF97E1B}"
 EndProject
@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW4_CS", "HW4_CS\HW4_CS.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW5.1_CS", "HW5.1_CS\Histogram\Histogram\HW5.1_CS.csproj", "{A8762163-FD56-4AAC-AC11-AFB2961943CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW5.2_CS", "HW5.2_CS\RectangleResize\RectangleResize\HW5.2_CS.csproj", "{AB41B051-D914-4376-B589-C00F7343B6CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW52_CS", "HW5.2_CS\RectangleResize\RectangleResize\HW52_CS.csproj", "{AB41B051-D914-4376-B589-C00F7343B6CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

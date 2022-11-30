@@ -10,8 +10,8 @@ namespace RectangleResize
             Bitmap b = new Bitmap(pictureBox1.Width, pictureBox1.Height);
             pictureBox1.Image = b;
             Graphics g = Graphics.FromImage(b);
-            g.DrawRectangle(new Pen(Color.Orange), rec);
-            g.FillRectangle(Brushes.Orange, rec.Left, rec.Top, rec.Width, rec.Height);
+            g.DrawRectangle(new Pen(Color.Red), rec);
+            g.FillRectangle(Brushes.Red, rec.Left, rec.Top, rec.Width, rec.Height);
         }
 
         private void pictureBox1_MouseWheel(object? sender, MouseEventArgs e)
@@ -31,8 +31,8 @@ namespace RectangleResize
             Graphics g = Graphics.FromImage(b);
             pictureBox1.Image = b;
             g.FillRectangle(Brushes.Black, 0, 0, b.Width, b.Height);
-            g.DrawRectangle(new Pen(Color.Orange), new Rectangle(rec.Left, rec.Top, rec.Width, rec.Height));
-            g.FillRectangle(Brushes.Orange, rec.Left, rec.Top, rec.Width, rec.Height);
+            g.DrawRectangle(new Pen(Color.Blue), new Rectangle(rec.Left, rec.Top, rec.Width, rec.Height));
+            g.FillRectangle(Brushes.Green, rec.Left, rec.Top, rec.Width, rec.Height);
         }
 
         private void Form1_Load(object sender, EventArgs e)
