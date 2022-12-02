@@ -1,6 +1,4 @@
-using Homewrok3Csharp;
-
-namespace HW3_CS
+namespace BoxMullerTransform
 {
     internal static class Program
     {
@@ -13,7 +11,7 @@ namespace HW3_CS
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new BoxMullerTransform());
         }
     }
 }

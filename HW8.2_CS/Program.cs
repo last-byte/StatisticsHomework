@@ -1,6 +1,4 @@
-using Homewrok3Csharp;
-
-namespace HW3_CS
+namespace OtherDistributions
 {
     internal static class Program
     {
