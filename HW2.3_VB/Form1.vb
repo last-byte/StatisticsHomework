@@ -12,7 +12,7 @@ Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
-        Dim Path As String = "C:\StudentClass.csv"
+        Dim Path As String = "..\..\..\StudentClass.csv"
         Using R As New StreamReader(Path)
             Do While Not R.EndOfStream
 
