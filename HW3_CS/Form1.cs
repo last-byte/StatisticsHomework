@@ -5,7 +5,7 @@ namespace Homewrok3Csharp
     
     public partial class Form1 : Form
     {
-        TextFieldParser parser = new TextFieldParser(@"..\\..\\..\\..\\wireshark.csv");
+        TextFieldParser parser = new TextFieldParser(@"..\\..\\..\\wireshark.csv");
         string[]? values = null;
 
         public Form1()
